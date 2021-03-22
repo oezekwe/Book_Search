@@ -18,7 +18,7 @@ type Book {
     link: String
 }
 input BookInput{
-    bookId: ID
+    bookId: String
     authors: [String]
     description: String
     title: String
